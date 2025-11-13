@@ -1,0 +1,143 @@
+Microsoft Windows [Version 10.0.26100.6899]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Manasvi>ipconfig
+
+Windows IP Configuration
+
+
+Wireless LAN adapter Local Area Connection* 1:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Local Area Connection* 2:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Wi-Fi:
+
+   Connection-specific DNS Suffix  . :
+   IPv6 Address. . . . . . . . . . . : 2401:4900:55b6:693f:1ee4:ab46:9c0b:343e
+   Temporary IPv6 Address. . . . . . : 2401:4900:55b6:693f:9c12:fd7a:bc6e:efb9
+   Link-local IPv6 Address . . . . . : fe80::ac62:65ef:9133:65d2%5
+   IPv4 Address. . . . . . . . . . . : 10.139.71.253
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : fe80::7cb2:7ff:fec4:d40e%5
+                                       10.139.71.157
+
+Ethernet adapter Bluetooth Network Connection:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+C:\Users\Manasvi>nmap -sS  10.139.71.0/24
+Starting Nmap 7.98 ( https://nmap.org ) at 2025-11-13 12:46 +0530
+Stats: 0:00:00 elapsed; 0 hosts completed (0 up), 255 undergoing ARP Ping Scan
+ARP Ping Scan Timing: About 5.88% done; ETC: 12:46 (0:00:16 remaining)
+Stats: 0:00:01 elapsed; 0 hosts completed (0 up), 255 undergoing ARP Ping Scan
+ARP Ping Scan Timing: About 7.84% done; ETC: 12:46 (0:00:12 remaining)
+Stats: 0:00:01 elapsed; 0 hosts completed (0 up), 255 undergoing ARP Ping Scan
+ARP Ping Scan Timing: About 9.61% done; ETC: 12:46 (0:00:09 remaining)
+Stats: 0:00:01 elapsed; 0 hosts completed (0 up), 255 undergoing ARP Ping Scan
+ARP Ping Scan Timing: About 11.57% done; ETC: 12:46 (0:00:08 remaining)
+Stats: 0:00:01 elapsed; 0 hosts completed (0 up), 255 undergoing ARP Ping Scan
+ARP Ping Scan Timing: About 13.33% done; ETC: 12:46 (0:00:13 remaining)
+Stats: 0:00:01 elapsed; 0 hosts completed (0 up), 255 undergoing ARP Ping Scan
+ARP Ping Scan Timing: About 15.49% done; ETC: 12:46 (0:00:11 remaining)
+Stats: 0:00:02 elapsed; 0 hosts completed (0 up), 255 undergoing ARP Ping Scan
+ARP Ping Scan Timing: About 18.04% done; ETC: 12:46 (0:00:09 remaining)
+Stats: 0:00:02 elapsed; 0 hosts completed (0 up), 255 undergoing ARP Ping Scan
+ARP Ping Scan Timing: About 20.39% done; ETC: 12:46 (0:00:08 remaining)
+Stats: 0:00:02 elapsed; 0 hosts completed (0 up), 255 undergoing ARP Ping Scan
+ARP Ping Scan Timing: About 22.55% done; ETC: 12:46 (0:00:10 remaining)
+Stats: 0:00:03 elapsed; 0 hosts completed (0 up), 255 undergoing ARP Ping Scan
+ARP Ping Scan Timing: About 24.90% done; ETC: 12:46 (0:00:09 remaining)
+Stats: 0:00:03 elapsed; 0 hosts completed (0 up), 255 undergoing ARP Ping Scan
+ARP Ping Scan Timing: About 26.86% done; ETC: 12:46 (0:00:08 remaining)
+Stats: 0:00:03 elapsed; 0 hosts completed (0 up), 255 undergoing ARP Ping Scan
+ARP Ping Scan Timing: About 31.96% done; ETC: 12:46 (0:00:09 remaining)
+Stats: 0:00:04 elapsed; 0 hosts completed (0 up), 255 undergoing ARP Ping Scan
+ARP Ping Scan Timing: About 36.67% done; ETC: 12:46 (0:00:07 remaining)
+Stats: 0:00:04 elapsed; 0 hosts completed (0 up), 255 undergoing ARP Ping Scan
+ARP Ping Scan Timing: About 40.39% done; ETC: 12:46 (0:00:07 remaining)
+Stats: 0:00:05 elapsed; 0 hosts completed (0 up), 255 undergoing ARP Ping Scan
+ARP Ping Scan Timing: About 43.92% done; ETC: 12:46 (0:00:06 remaining)
+Stats: 0:00:05 elapsed; 0 hosts completed (0 up), 255 undergoing ARP Ping Scan
+ARP Ping Scan Timing: About 48.04% done; ETC: 12:46 (0:00:06 remaining)
+Stats: 0:00:05 elapsed; 0 hosts completed (0 up), 255 undergoing ARP Ping Scan
+ARP Ping Scan Timing: About 51.96% done; ETC: 12:46 (0:00:06 remaining)
+Stats: 0:00:06 elapsed; 0 hosts completed (0 up), 255 undergoing ARP Ping Scan
+ARP Ping Scan Timing: About 57.06% done; ETC: 12:46 (0:00:05 remaining)
+Stats: 0:00:06 elapsed; 0 hosts completed (0 up), 255 undergoing ARP Ping Scan
+ARP Ping Scan Timing: About 72.55% done; ETC: 12:46 (0:00:03 remaining)
+Stats: 0:00:07 elapsed; 0 hosts completed (0 up), 255 undergoing ARP Ping Scan
+ARP Ping Scan Timing: About 80.59% done; ETC: 12:46 (0:00:02 remaining)
+Stats: 0:00:07 elapsed; 0 hosts completed (0 up), 255 undergoing ARP Ping Scan
+ARP Ping Scan Timing: About 82.16% done; ETC: 12:46 (0:00:02 remaining)
+Stats: 0:00:07 elapsed; 0 hosts completed (0 up), 255 undergoing ARP Ping Scan
+ARP Ping Scan Timing: About 85.49% done; ETC: 12:46 (0:00:01 remaining)
+Stats: 0:00:08 elapsed; 0 hosts completed (0 up), 255 undergoing ARP Ping Scan
+ARP Ping Scan Timing: About 97.06% done; ETC: 12:46 (0:00:00 remaining)
+Stats: 0:00:09 elapsed; 254 hosts completed (1 up), 255 undergoing Host Discovery
+Parallel DNS resolution of 1 host. Timing: About 0.00% done
+Stats: 0:00:09 elapsed; 254 hosts completed (1 up), 1 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 1.00% done; ETC: 12:46 (0:00:00 remaining)
+Stats: 0:00:10 elapsed; 254 hosts completed (1 up), 1 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 8.25% done; ETC: 12:46 (0:00:00 remaining)
+Stats: 0:00:10 elapsed; 254 hosts completed (1 up), 1 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 14.80% done; ETC: 12:46 (0:00:06 remaining)
+Stats: 0:00:11 elapsed; 254 hosts completed (1 up), 1 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 23.20% done; ETC: 12:46 (0:00:03 remaining)
+Stats: 0:00:11 elapsed; 254 hosts completed (1 up), 1 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 30.00% done; ETC: 12:46 (0:00:02 remaining)
+Stats: 0:00:11 elapsed; 254 hosts completed (1 up), 1 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 37.20% done; ETC: 12:46 (0:00:03 remaining)
+Stats: 0:00:12 elapsed; 254 hosts completed (1 up), 1 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 47.80% done; ETC: 12:46 (0:00:02 remaining)
+Stats: 0:00:12 elapsed; 254 hosts completed (1 up), 1 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 56.45% done; ETC: 12:46 (0:00:02 remaining)
+Stats: 0:00:13 elapsed; 254 hosts completed (1 up), 1 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 63.70% done; ETC: 12:46 (0:00:02 remaining)
+Stats: 0:00:13 elapsed; 254 hosts completed (1 up), 1 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 71.65% done; ETC: 12:46 (0:00:02 remaining)
+Stats: 0:00:13 elapsed; 254 hosts completed (1 up), 1 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 78.55% done; ETC: 12:46 (0:00:01 remaining)
+Stats: 0:00:14 elapsed; 254 hosts completed (1 up), 1 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 83.70% done; ETC: 12:46 (0:00:01 remaining)
+Stats: 0:00:14 elapsed; 254 hosts completed (1 up), 1 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 89.10% done; ETC: 12:46 (0:00:01 remaining)
+Stats: 0:00:15 elapsed; 254 hosts completed (1 up), 1 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 96.60% done; ETC: 12:46 (0:00:00 remaining)
+Nmap scan report for 10.139.71.157
+Host is up (0.022s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE
+53/tcp open  domain
+MAC Address: 7E:B2:07:C4:D4:0E (Unknown)
+
+Nmap scan report for 10.139.71.253
+Host is up (0.0010s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT    STATE SERVICE
+135/tcp open  msrpc
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+
+Nmap done: 256 IP addresses (2 hosts up) scanned in 15.45 seconds
+
+C:\Users\Manasvi>
+C:\Users\Manasvi>nmap -sS 10.139.71.253
+Starting Nmap 7.98 ( https://nmap.org ) at 2025-11-13 12:47 +0530
+Nmap scan report for 10.139.71.253
+Host is up (0.000012s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT    STATE SERVICE
+135/tcp open  msrpc
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+
+Nmap done: 1 IP address (1 host up) scanned in 0.77 seconds
+
+C:\Users\Manasvi>
